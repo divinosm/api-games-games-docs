@@ -79,11 +79,11 @@ Exemplo:
 ```
 #### Respostas
 ##### statuscode 200
-Resposta dada ao sucesso da operação, será recebida a listagem de todos os games
+Resposta dada ao sucesso da operação, será recebida o token jwt de autorização de acesso
 ```
-  
-]
-
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwiZW1haWwiOiJkaXZpbm9zbWlyYW5kYUBob3RtYWlsLmNvbSIsImlhdCI6MTYwMjc3MTY3MywiZXhwIjoxNjAyOTQ0NDczfQ.Z2Kow4FBPX3OhBVVigUaolTl9Upna-VMyn_DM1m-ceE"
+}
 ```
 ##### statuscode 400 - usuario não cadastrado
 Resposta dada quando o usuário não está cadastrado no sistema
