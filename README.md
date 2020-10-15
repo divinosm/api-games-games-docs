@@ -71,12 +71,12 @@ Resposta
 este endpoit é responsável por AUTORIZAR O ACESSO aos endpoints
 #### Parametros
 email e senha
-'''
+´´´
 {
    "email": "divinosmiranda@hotmail.com", 
    "senha": "divino"
 }
-'''
+´´´
 #### Respostas
 ##### statuscode 200
 Resposta dada ao sucesso da operação, será recebida a listagem de todos os games
