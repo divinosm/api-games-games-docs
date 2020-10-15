@@ -60,3 +60,10 @@ Resposta dada quando o token não confere. O que significa falha no processo de 
 Motivos:
 Token inválido
 Token expirado
+Resposta 
+```
+{
+    "err": "token invalido"
+}
+
+```
